@@ -1,0 +1,23 @@
+# 系统与编辑器
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# 运行时产物（保留 output/ 下已有的分析结果，只忽略新增日志与中间缓存）
+output/*.log.tmp
+output/.cache/
+cache/d_*.csv
+
+# 数据源限流时的临时文件
+*.tmp
+*.part
